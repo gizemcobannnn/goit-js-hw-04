@@ -1,5 +1,5 @@
-//
 console.log("Görev 1. Ürünlerin Paketlenmesi\n");
+
 function isEnoughCapacity(products, containerSize){
   let total = 0;
   for(const product of Object.values(products)){

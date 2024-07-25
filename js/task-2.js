@@ -1,4 +1,5 @@
 console.log("Görev 2. Kalori Hesaplama\n");
+
 function calcAverageCalories(days){
   let total=0;
   for(const calori of Object.values(days)){
